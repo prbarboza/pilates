@@ -13857,4 +13857,9 @@ textarea.form-control {
   }
 }
 
+@media (max-width: 768px) {
+  .premium-card-inner {
+    padding: 30px 28px !important; /* mais corpo */
+  }
+}
 
