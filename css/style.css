@@ -13589,7 +13589,7 @@ textarea.form-control {
 /* Padroniza título "Muito além do exercício físico"
    para ficar igual ao "Informações Premium Pilates" */
 .heading-section h2 {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 500;
     letter-spacing: 0.5px;
     color: #111111;
@@ -13747,7 +13747,7 @@ textarea.form-control {
 ========================================= */
 
 .testimony-section .heading-section h2 {
-    margin-top: 20px!important;
+    margin-top: 40px!important;
 }
 
 /* =========================================
