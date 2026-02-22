@@ -11899,6 +11899,7 @@ textarea.form-control {
 
 .heading-section {
   z-index: 0;
+  padding-top: 60px;
 }
 
 .heading-section .subheading {
@@ -13747,7 +13748,7 @@ textarea.form-control {
 ========================================= */
 
 .testimony-section .heading-section h2 {
-    margin-top: 40px!important;
+    margin-top: 0!important;
 }
 
 /* =========================================
