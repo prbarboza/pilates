@@ -11783,7 +11783,7 @@ textarea.form-control {
 }
 
 .ftco-footer {
-  font-size: 16px;
+  font-size: 14px;
   padding: 6em 0;
   border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
@@ -13977,5 +13977,12 @@ body {
   .ritual-section .icon span[class^="flaticon-"],
   .ritual-section i[class^="flaticon-"] {
     font-size: 60px !important;
+  }
+}
+
+/* FOOTER – mobile */
+@media (max-width: 768px) {
+  .ftco-footer {
+    font-size: 14px;
   }
 }
