@@ -13079,7 +13079,8 @@ textarea.form-control {
 /* MOBILE */
 @media (max-width: 768px) {
   .hero-pilates .icon img {
-    width: 60px;
+    width: 90px;   /* aumenta a logo */
+    height: auto;
   }
 }
 
@@ -13808,3 +13809,24 @@ textarea.form-control {
   align-items: stretch !important;
 }
 
+/* LIBERA O CARD PARA CRESCER COM O TEXTO */
+.ritual-center-card,
+.ritual-center-card .card,
+.ritual-center-card .card-body,
+.ritual-center-card .collapse,
+.ritual-center-card .collapsing {
+  height: auto !important;
+  max-height: none !important;
+  overflow: visible !important;
+}
+
+/* CENTRALIZA O CARD CORRETAMENTE */
+.ritual-center-card {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* REMOVE DESLOCAMENTO HORIZONTAL DA COLUNA */
+.ritual-center-card {
+  transform: translateX(-8px);
+}
