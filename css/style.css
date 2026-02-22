@@ -10951,7 +10951,7 @@ h5,
   left: 0;
   top: 0;
   margin-top: -130px;
-  background: #fff !important;
+  background: #ABA1DD !important;
   -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
@@ -10987,7 +10987,7 @@ h5,
 }
 .ftco-navbar-light.scrolled .navbar-toggler {
   border: none;
-  color: rgba(0, 0, 0, 0.5) !important;
+  color: #000 !important;
   border-color: rgba(0, 0, 0, 0.5) !important;
   cursor: pointer;
   padding-right: 0;
@@ -13986,3 +13986,93 @@ body {
     font-size: 14px;
   }
 }
+
+/* Evita tremedeira no banner do blog */
+.hero-wrap-2 {
+  background-attachment: scroll !important;
+}
+
+/* HERO COM IMG NO HTML – estável */
+.hero-wrap {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-bg-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.hero-wrap .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 2;
+}
+
+.hero-wrap .container {
+  position: relative;
+  z-index: 3;
+}
+
+/* Altura do hero */
+.hero-wrap-2 {
+  min-height: 70vh;
+}
+
+@media (max-width: 768px) {
+  .hero-wrap-2 {
+    min-height: 60vh;
+  }
+}
+
+/* HERO TIPO FAIXA */
+.hero-wrap-2 {
+  min-height: 260px;   /* altura de faixa */
+  height: 260px;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .hero-wrap-2 {
+    min-height: 260px !important;
+    height: 200px!important;
+  }
+}
+
+/* SUBIR TEXTO DO BANNER (BLOG) */
+.hero-wrap-2 .slider-text {
+  margin-top: -15px;
+}
+
+@media (max-width: 768px) {
+  .hero-wrap-2 h1.bread {
+    font-size: 32px;
+    letter-spacing: 2px;
+  }
+}
+
+/* BLOG – breadcrumb/título ajustado */
+.hero-wrap.hero-wrap-2 .slider-text .breadcrumbs {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #000;
+}
+
+/* HAMBÚRGUER PRETO (Open Iconic) */
+.ftco-navbar-light .navbar-toggler .oi:before {
+  color: #000;
+}
+
+/* HAMBÚRGUER BRANCO – navbar normal (topo) */
+.ftco-navbar-light:not(.scrolled) .navbar-toggler .oi:before {
+  color: #fff !important;
+}
+
+  
