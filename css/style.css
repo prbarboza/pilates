@@ -13806,3 +13806,22 @@ textarea.form-control {
 .ritual-section {
   margin-top: -60px;
 }
+
+.ritual-center-card {
+  overflow: visible !important;
+  height: auto !important;
+}
+
+#accordion,
+#accordion .collapse,
+#accordion .card {
+  height: auto !important;
+  overflow: visible !important;
+}
+
+#accordion,
+#accordion .collapse,
+#accordion .card {
+  height: auto !important;
+  overflow: visible !important;
+}
