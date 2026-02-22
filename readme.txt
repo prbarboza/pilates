@@ -1,8 +1,19 @@
-Thank you for using our template!
+# Ecom Inteligente
 
-For more awesome templates please visit https://colorlib.com/wp/templates/
+Projetos e soluções digitais desenvolvidos pela Ecom Inteligente.
 
-Copyright information for the template can't be altered/removed unless you purchase a license.
-More information about the license is available here: https://colorlib.com/wp/licence/
+Este repositório contém templates e implementações personalizadas
+para negócios locais, estúdios, clínicas e e-commerces, com foco em
+performance, conversão e experiência do usuário.
 
-Removing copyright information without the license will result in suspension of your hosting and/or domain name(s).
+## Tecnologias
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap
+
+## Observações
+Este projeto utiliza um template base licenciado de terceiros.
+Os créditos e direitos do template original são mantidos conforme
+os termos da licença.
+
