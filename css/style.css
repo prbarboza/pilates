@@ -10773,12 +10773,12 @@ a {
   -webkit-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
   transition: 0.3s all ease;
-  color: #d9bf77;
+  color: #64478B;
 }
 a:hover,
 a:active,
 a:focus {
-  color: #d9bf77;
+  color: #64478B;
   outline: none !important;
   text-decoration: none !important;
 }
@@ -10799,7 +10799,7 @@ h5,
 }
 
 .text-primary {
-  color: #d9bf77 !important;
+  color: #64478B !important;
 }
 
 .ftco-navbar-light {
@@ -10824,10 +10824,10 @@ h5,
   top: 0;
 }
 .ftco-navbar-light .navbar-brand {
-  color: #d9bf77;
+  color: #1a1a1a;
 }
 .ftco-navbar-light .navbar-brand span {
-  color: #d9bf77;
+  color: #1a1a1a;
   font-size: 28px;
 }
 .ftco-navbar-light .navbar-brand:hover,
@@ -10923,15 +10923,15 @@ h5,
 @media (max-width: 991.98px) {
   .ftco-navbar-light .navbar-nav > .nav-item.cta > a {
     color: #fff;
-    background: #d9bf77;
+    background: #64478B;
   }
 }
 .ftco-navbar-light .navbar-nav > .nav-item.active > a {
-  color: #d9bf77;
+  color: #64478B;
 }
 .ftco-navbar-light .navbar-nav > .nav-item.active > a:after {
   opacity: 1;
-  background: #d9bf77;
+  background: #64478B;
 }
 .ftco-navbar-light .navbar-toggler {
   border: none;
@@ -10956,11 +10956,11 @@ h5,
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
 .ftco-navbar-light.scrolled .nav-item.active > a {
-  color: #d9bf77 !important;
+  color: #64478B !important;
 }
 .ftco-navbar-light.scrolled .nav-item.cta > a {
   color: #fff !important;
-  background: #d9bf77;
+  background: #64478B;
   border: none !important;
 }
 .ftco-navbar-light.scrolled .nav-item.cta > a span {
@@ -10968,7 +10968,7 @@ h5,
   color: #fff !important;
 }
 .ftco-navbar-light.scrolled .nav-item.cta.cta-colored span {
-  border-color: #d9bf77;
+  border-color: #64478B;
 }
 @media (max-width: 991.98px) {
   .ftco-navbar-light.scrolled .navbar-nav {
@@ -11001,7 +11001,7 @@ h5,
   color: #000 !important;
 }
 .ftco-navbar-light.scrolled .nav-link.active {
-  color: #d9bf77 !important;
+  color: #64478B !important;
 }
 .ftco-navbar-light.scrolled.awake {
   margin-top: 0px;
@@ -11047,7 +11047,7 @@ h5,
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   margin-top: -10px;
-  color: #d9bf77 !important;
+  color: #64478B !important;
   -moz-transition: all 0.7s ease;
   -o-transition: all 0.7s ease;
   -webkit-transition: all 0.7s ease;
@@ -11121,7 +11121,7 @@ h5,
 .hero-wrap .slider-text .icon span {
   font-size: 80px;
   line-height: 1.2;
-  color: #d9bf77;
+  color: #1a1a1a;
 }
 .hero-wrap .slider-text .icon:after {
   position: absolute;
@@ -11131,7 +11131,7 @@ h5,
   content: "";
   max-width: 500px;
   height: 2px;
-  background: #d9bf77;
+  background: #64478B;
   margin: 0 auto;
 }
 .hero-wrap .slider-text .breadcrumbs {
@@ -11250,7 +11250,7 @@ h5,
 }
 
 .bg-primary {
-  background: #d9bf77;
+  background: #1a1a1a;
 }
 
 .container {
@@ -11276,23 +11276,23 @@ h5,
   outline: none;
 }
 .btn.btn-primary {
-  background: #d9bf77 !important;
-  border: 1px solid #d9bf77 !important;
+  background: #1a1a1a !important;
+  border: 1px solid #1a1a1a !important;
   color: #fff;
 }
 .btn.btn-primary:hover {
-  border: 1px solid #d9bf77;
+  border: 1px solid #1a1a1a;
   background: transparent !important;
-  color: #d9bf77;
+  color: #1a1a1a;
 }
 .btn.btn-outline-primary {
-  border: 1px solid #d9bf77;
+  border: 1px solid #1a1a1a;
   background: transparent;
-  color: #d9bf77;
+  color: #1a1a1a;
 }
 .btn.btn-outline-primary:hover {
   border: 1px solid transparent;
-  background: #d9bf77;
+  background: #1a1a1a;
   color: #fff;
 }
 .btn.btn-white {
@@ -11307,8 +11307,8 @@ h5,
   color: #000;
 }
 .btn.btn-white:hover {
-  border: 1px solid #d9bf77;
-  background: #d9bf77;
+  border: 1px solid #1a1a1a;
+  background: #1a1a1a;
   color: #fff;
 }
 .btn.btn-white:hover span {
@@ -11323,8 +11323,8 @@ h5,
 .btn.btn-white.btn-outline-white:hover,
 .btn.btn-white.btn-outline-white:focus,
 .btn.btn-white.btn-outline-white:active {
-  background: #d9bf77;
-  border-color: #d9bf77;
+  background: #1a1a1a;
+  border-color: #1a1a1a;
   color: #000;
 }
 .btn.btn-outline-black {
@@ -11358,7 +11358,7 @@ h5,
   font-weight: 300;
 }
 .do-list li span {
-  color: #d9bf77;
+  color: #64478B;
   font-size: 22px;
 }
 
@@ -11410,7 +11410,7 @@ h5,
   -webkit-transition: all 0.6s ease;
   -ms-transition: all 0.6s ease;
   transition: all 0.6s ease;
-  background: #d9bf77;
+  background: #64478B;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -11432,8 +11432,8 @@ h5,
 .services .icon {
   width: 120px;
   height: 120px;
-  border: 1px solid #d9bf77;
-  background: #d9bf77;
+  border: 1px solid #64478B;
+  background: #64478B;
   margin: 0 auto;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -11461,7 +11461,7 @@ h5,
 .treatment .icon span {
   font-size: 60px;
   line-height: 1;
-  color: #d9bf77;
+  color: #64478B;
 }
 
 .treatment h3 {
@@ -11597,7 +11597,7 @@ h5,
   display: block;
   width: 40px;
   height: 40px;
-  background: #d9bf77;
+  background: #64478B;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -11685,7 +11685,7 @@ h5,
   background: rgba(0, 0, 0, 0.2);
 }
 .testimony-section .owl-dots .owl-dot.active {
-  background: #d9bf77;
+  background: #64478B;
 }
 
 .testimony-wrap {
@@ -11722,7 +11722,7 @@ h5,
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  background: #d9bf77;
+  background: #64478B;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -11744,7 +11744,7 @@ h5,
   border-radius: 50%;
 }
 .ftco-social a span {
-  color: #d9bf77;
+  color: #64478B;
 }
 
 .form-control {
@@ -11762,7 +11762,7 @@ h5,
 }
 .form-control:focus,
 .form-control:active {
-  border-color: #d9bf77;
+  border-color: #64478B;
 }
 
 textarea.form-control {
@@ -11775,17 +11775,7 @@ textarea.form-control {
 }
 
 .bg-primary {
-  background: #d9bf77 !important;
-}
-
-.ftco-section {
-  padding: 7em 0;
-  position: relative;
-}
-@media (max-width: 767.98px) {
-  .ftco-section {
-    padding: 6em 0;
-  }
+  background: #64478B !important;
 }
 
 .ftco-bg-dark {
@@ -11846,10 +11836,10 @@ textarea.form-control {
   height: 40px;
   width: 40px;
   display: block;
-  background: #d9bf77;
+  background: #64478B;
   border-radius: 50%;
   position: relative;
-  color: #d9bf77 !important;
+  color: #64478B !important;
 }
 .ftco-footer-social li a span {
   position: absolute;
@@ -11910,16 +11900,18 @@ textarea.form-control {
 .heading-section {
   z-index: 0;
 }
+
 .heading-section .subheading {
-  font-size: 12px;
+  font-size: 18px;
   display: block;
-  margin-bottom: 5px;
-  color: #d9bf77;
+  margin-bottom: 6px;
+  color: #64478B;
   line-height: 1;
   z-index: 1;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 3px;
+  margin-top: 16px; /* controla o quanto desce */
 }
 .heading-section h2 {
   z-index: -1;
@@ -11987,7 +11979,7 @@ textarea.form-control {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #d9bf77;
+  background: #64478B;
   opacity: 0;
 }
 
@@ -12014,7 +12006,7 @@ textarea.form-control {
   right: 0;
   bottom: 0;
   content: "";
-  border: 1px solid #d9bf77;
+  border: 1px solid #64478B;
   z-index: -1;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -12030,17 +12022,17 @@ textarea.form-control {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  color: #d9bf77;
+  color: #64478B;
 }
 .ftco-counter .text strong.number {
   font-weight: 500;
   font-size: 50px;
-  color: #d9bf77;
+  color: #64478B;
 }
 .ftco-counter .text span {
   font-weight: 600;
   font-size: 14px;
-  color: #d9bf77;
+  color: #64478B;
   text-transform: uppercase;
   letter-spacing: 3px;
 }
@@ -12053,7 +12045,7 @@ textarea.form-control {
   -webkit-transform: rotate(135deg);
   -ms-transform: rotate(135deg);
   transform: rotate(135deg);
-  background: #d9bf77;
+  background: #64478B;
 }
 @media (max-width: 991.98px) {
   .ftco-counter .counter-wrap {
@@ -12112,7 +12104,7 @@ textarea.form-control {
 .blog-entry .text .heading a:hover,
 .blog-entry .text .heading a:focus,
 .blog-entry .text .heading a:active {
-  color: #d9bf77;
+  color: #64478B;
 }
 .blog-entry .meta > div {
   display: inline-block;
@@ -12136,7 +12128,7 @@ textarea.form-control {
 .blog-entry span.day {
   font-size: 58px;
   font-weight: 300;
-  color: #d9bf77;
+  color: #64478B;
   line-height: 1;
 }
 .blog-entry span.yr,
@@ -12201,12 +12193,12 @@ textarea.form-control {
 .block-7 .price sup {
   font-size: 24px;
   top: -1em;
-  color: #d9bf77;
+  color: #64478B;
 }
 .block-7 .price .number {
   font-size: 60px;
   font-weight: 500;
-  color: #d9bf77;
+  color: #64478B;
 }
 .block-7 .excerpt {
   margin-bottom: 20px;
@@ -12241,7 +12233,7 @@ textarea.form-control {
 }
 .block-7 .btn-primary:hover,
 .block-7 .btn-primary:focus {
-  background: #d9bf77 !important;
+  background: #64478B !important;
   color: #fff;
 }
 .block-7:hover,
@@ -12274,7 +12266,7 @@ textarea.form-control {
 }
 .block-27 ul li a,
 .block-27 ul li span {
-  color: #d9bf77;
+  color: #64478B;
   text-align: center;
   display: inline-block;
   width: 40px;
@@ -12285,7 +12277,7 @@ textarea.form-control {
 }
 .block-27 ul li.active a,
 .block-27 ul li.active span {
-  background: #d9bf77;
+  background: #64478B;
   color: #fff;
   border: 1px solid transparent;
 }
@@ -12329,7 +12321,7 @@ textarea.form-control {
 }
 .contact-form .form-control:focus,
 .contact-form .form-control:active {
-  border-color: #d9bf77 !important;
+  border-color: #64478B !important;
 }
 
 .contact-form textarea.form-control {
@@ -12361,7 +12353,7 @@ textarea.form-control {
 .block-21 .text .heading a:hover,
 .block-21 .text .heading a:active,
 .block-21 .text .heading a:focus {
-  color: #d9bf77;
+  color: #64478B;
 }
 .block-21 .text .meta > div {
   display: inline-block;
@@ -12407,7 +12399,7 @@ textarea.form-control {
   margin: 0;
   border-radius: 50% !important;
   font-size: 16px;
-  background: #d9bf77;
+  background: #64478B;
   color: #fff;
 }
 .custom-pagination li.active a:hover,
@@ -12806,11 +12798,13 @@ textarea.form-control {
 .hero-wrap .slider-text {
   position: relative;
   z-index: 3;
+  margin-top: 100px;
 }
+
 
 .hero-pilates {
   position: relative;
-  min-height: 520px; /* altura moderna */
+  min-height: 720px; /* altura moderna */
   padding-top: 140px; /* empurra o texto pra cima */
   padding-bottom: 80px;
   overflow: hidden;
@@ -12994,7 +12988,7 @@ textarea.form-control {
 .ftco-intro p {
   font-size: 16px;
   line-height: 1.7;
-  color: #333;
+  color: #000;
   margin-bottom: 24px;
 }
 
@@ -13006,7 +13000,7 @@ textarea.form-control {
 .ftco-intro .do-list li {
   font-size: 15px;
   line-height: 1.6;
-  color: #111;
+  color: #000;
   display: flex;
   align-items: flex-start;
   margin-bottom: 12px;
@@ -13096,85 +13090,141 @@ textarea.form-control {
 /* ==========================================================================
    CONFIGURAÇÕES GERAIS E RESPIRO DE SEÇÃO
    ========================================================================== */
+/* =====================================
+   ESPAÇAMENTO GLOBAL DE SEÇÕES (FINAL)
+===================================== */
+
 .ftco-section {
-    padding: 5em 0;
-    overflow: visible !important; /* Permite sombras e ícones flutuantes */
+    padding: 80px 0; /* desktop */
 }
 
 @media (max-width: 767.98px) {
     .ftco-section {
-        padding: 3em 0 !important;
+        padding: 48px 0; /* mobile */
     }
 }
 
+
 /* ==========================================================================
-   ESTRUTURA DO CARROSSEL (PADRÃO PARA TODAS AS SEÇÕES)
+   ESTRUTURA DO CARROSSEL — CORRIGIDA
    ========================================================================== */
+
 .premium-slider-container {
     width: 100%;
-    overflow: visible !important;
     position: relative;
+    overflow: hidden; /* 🔴 impede borda lateral */
 }
 
+/* MOBILE — carrossel (mantido) */
 @media (max-width: 991.98px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
     .premium-slider-container {
-        overflow-x: auto !important;
-        overflow-y: visible !important;
+        overflow-x: auto;
+        overflow-y: hidden;
         -webkit-overflow-scrolling: touch;
         scroll-snap-type: x mandatory;
-        padding-bottom: 40px; /* Espaço para a sombra não cortar */
+        padding-bottom: 28px;
     }
 
     .premium-carousel {
-        display: flex !important;
-        flex-wrap: nowrap !important;
-        margin: 0 !important;
-        padding-left: 15px; /* Alinhamento inicial */
+        display: flex;
+        flex-wrap: nowrap;
+        margin: 0;
+        padding-left: 15px;
     }
 
     .premium-card-item {
-        flex: 0 0 82% !important;
-        max-width: 82% !important;
+        flex: 0 0 82%;
+        max-width: 82%;
         scroll-snap-align: center;
         padding: 0 10px;
     }
 
-    /* Esconde a barra de rolagem horizontal */
     .premium-slider-container::-webkit-scrollbar {
         display: none;
     }
 }
 
 /* ==========================================================================
-   ESTILO 1: CARDS COM IMAGEM CIRCULAR (INFORMAÇÕES PREMIUM)
+   CARD PREMIUM — ALTURA UNIFORME + CONTRASTE SUAVE
    ========================================================================== */
+
+.premium-card-item {
+    display: flex;
+}
+
 .premium-card-inner {
     background: #ffffff;
-    border-radius: 20px;
-    padding: 35px 20px;
-    height: 100%;
+    border-radius: 18px;
+    padding: 26px 20px; /* 🔽 menos comprido */
     text-align: center;
-    border: 1px solid rgba(0, 0, 0, 0.08); /* Contraste branco no branco */
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1), 0 5px 15px rgba(0, 0, 0, 0.05);
-    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
+
+    width: 100%;
+    height: 100%; /* 🔴 todos iguais */
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.premium-card-inner:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.15);
+/* TÍTULO — limita altura para não quebrar card */
+.premium-card-inner h3 {
+    font-size: 16px;
+    line-height: 1.3;
+    margin-bottom: 10px;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* 🔴 no máximo 2 linhas */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    min-height: 42px; /* 🔴 iguala alturas */
 }
+
+/* TEXTO */
+.premium-card-inner p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* HOVER — SOMENTE DESKTOP, SEM CORTAR */
+@media (min-width: 992px) {
+    .premium-card-inner:hover {
+        transform: translateY(-4px); /* 🔽 não corta mais */
+        box-shadow: 0 14px 34px rgba(0, 0, 0, 0.12);
+    }
+}
+
+/* MOBILE — remove hover */
+@media (max-width: 991.98px) {
+    .premium-card-inner:hover {
+        transform: none;
+        box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+    }
+}
+
+/* ==========================================================================
+   IMAGEM CIRCULAR — SEM EXAGERO
+   ========================================================================== */
 
 .premium-img-circle {
-    width: 95px;
-    height: 95px;
-    margin-bottom: 20px;
+    width: 88px;
+    height: 88px;
+    margin-bottom: 16px;
+
     border-radius: 50%;
     overflow: hidden;
-    border: 4px solid #fff;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    border: 3px solid #ffffff;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
 }
 
 .premium-img-circle img {
@@ -13183,216 +13233,230 @@ textarea.form-control {
     object-fit: cover;
 }
 
+
 /* ==========================================================================
-   ESTILO 2: CARDS COM ÍCONES FLUTUANTES (SERVIÇOS GLOW)
+   RECONSTRUÇÃO TOTAL: CARROSSEL SERVICES (VERSÃO PREMIUM)
    ========================================================================== */
-.card-glow-modern {
-    background: #fdfdfd; /* Off-white para destaque */
-    border-radius: 25px;
-    padding: 55px 25px 35px;
-    height: 100%;
-    text-align: center;
+
+.srv-slider-container {
+    width: 100%;    
+    overflow: hidden;
     position: relative;
-    border: 1px solid rgba(0, 0, 0, 0.08);
-    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
-    margin-top: 40px; /* Espaço para o ícone */
+}
+
+/* O CARD - Agora com estrutura sólida */
+.srv-clean-card {
+    background: #ffffff !important;
+    border-radius: 20px;
+    padding: 40px 25px;
+    text-align: center;
+    border: 1px solid #e0e0e0; /* Borda visível */
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.1) !important; /* Sombra forte */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     transition: all 0.4s ease;
 }
 
-.card-glow-modern:hover {
-    background: #ffffff;
-    transform: translateY(-8px);
-    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.12);
-}
-
-.icon-floating {
-    width: 80px;
-    height: 80px;
-    background: #222;
-    border-radius: 20px;
+/* BOX DO ÍCONE - Prateado, grande e centralizado */
+.srv-icon-box {
+    width: 90px;
+    height: 90px;
+    background: linear-gradient(145deg, #f0f0f0, #ffffff);
+    border: 2px solid #dcdcdc; /* Prateado definido */
+    border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    top: -40px;
-    left: 50%;
-    transform: translateX(-50%);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-    border: 2px solid #fff;
+    margin-bottom: 25px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.08);
 }
 
-.icon-floating span {
-    font-size: 32px;
-    color: #fff;
+.srv-icon-box span {
+    font-size: 42px !important; /* Ícone grande */
+    color: #111111 !important; /* Preto puro */
 }
 
-/* ==========================================================================
-   TIPOGRAFIA E AJUSTES FINAIS
-   ========================================================================== */
-h3 {
-    font-size: 1.1rem !important;
-    font-weight: 700 !important;
-    color: #111 !important;
-    margin-bottom: 15px !important;
-}
-
-p {
-    font-size: 0.9rem !important;
-    color: #444 !important; /* Texto escuro como solicitado */
-    line-height: 1.6 !important;
-}
-
-/* Seção de Intro (Imagem ao lado) */
-.custom-intro-img {
-    max-width: 100%;
-    border-radius: 20px;
-    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
-    filter: brightness(0.9);
-}
-
-/* =======================================
-   FIM CARDS CIRCULOS E ÍCONES FLUTUANTES
-   ==================================== */
-
-   /* --- ESTRUTURA DE DESLIZE (CARROSSEL MOBILE AUTOMÁTICO) --- */
-.srv-slider-container {
-    width: 100%;
-    overflow: visible !important;
-    position: relative;
-}
-
-@media (max-width: 991.98px) {
-    .srv-slider-container {
-        display: block !important;
-        overflow-x: scroll !important; /* Força o scroll */
-        scroll-behavior: smooth !important; /* Essencial para o JS deslizar */
-        scroll-snap-type: x mandatory; 
-        -webkit-overflow-scrolling: touch;
-    }
-    
-     .srv-carousel-row {
-        display: flex !important;
-        flex-wrap: nowrap !important; /* Força os cards em linha única */
-        margin: 0 !important;
-        padding-left: 15px;
-    }
-    .srv-card-item {
-        flex: 0 0 85% !important; /* Card ocupa 85% da tela para mostrar o próximo */
-        max-width: 85% !important;
-        scroll-snap-align: center; /* Trava o card no centro ao deslizar */
-        padding: 0 10px;
-    }
-    .srv-slider-container::-webkit-scrollbar { display: none; }
-}
-
-/* --- DESIGN DOS CARDS (VISUAL VIVO) --- */
-.srv-card-glow {
-    background: #fdfdfd; 
-    border-radius: 25px;
-    padding: 55px 25px 35px;
-    height: 100%;
-    text-align: center;
-    position: relative;
-    margin-top: 40px;
-    z-index: 1;
-    border: 1px solid rgba(0, 0, 0, 0.08);
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
-    transition: all 0.4s ease-in-out;
-}
-
-/* --- HOVER SOMENTE PARA DESKTOP (Acima de 992px) --- */
-@media (min-width: 992px) {
-    .srv-card-glow:hover {
-        background: #ffffff;
-        transform: translateY(-10px); /* Card sobe apenas no PC */
-        box-shadow: 0 30px 60px rgba(0, 0, 0, 0.15);
-    }
-}
-
-/* --- ÍCONE FLUTUANTE --- */
-.srv-icon-floating {
-    width: 80px;
-    height: 80px;
-    background: #222;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: -40px;
-    left: 50%;
-    transform: translateX(-50%);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.25);
-    border: 2px solid #fff;
-    z-index: 10;
-}
-
-.srv-icon-floating span {
-    font-size: 32px;
-    color: #fff;
-}
-
-/* --- TEXTOS ESCUROS --- */
+/* TIPOGRAFIA - Forte e clara */
 .srv-card-body h3 {
-    font-size: 1.1rem !important;
-    font-weight: 700 !important;
-    color: #111 !important;
+    font-size: 1.2rem !important;
+    font-weight: 800 !important;
+    color: #000 !important;
     text-transform: uppercase;
     margin-bottom: 15px;
 }
 
 .srv-card-body p {
-    font-size: 0.9rem !important;
+    font-size: 0.95rem !important;
     color: #333 !important;
     line-height: 1.6 !important;
+    margin-bottom: 0;
+}
+
+/* MOBILE - Estático para não balançar */
+@media (max-width: 991.98px) {
+    .srv-slider-container {
+        overflow-x: auto !important;
+        scroll-snap-type: x mandatory;
+        padding-bottom: 16px;
+    }
+
+    .srv-carousel-row {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        margin: 0 !important;
+    }
+
+    .srv-card-item {
+        flex: 0 0 85% !important;
+        max-width: 85% !important;
+        scroll-snap-align: center;
+        padding: 0 15px;
+    }
+
+    /* Sem hover ou movimentos estranhos no toque */
+    .srv-clean-card {
+        transform: none !important;
+        opacity: 1 !important;
+    }
+}
+
+/* HOVER - Apenas Desktop */
+@media (min-width: 992px) {
+    .srv-clean-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 30px 60px rgba(0, 0, 0, 0.15) !important;
+        border-color: #cccccc;
+    }
 }
 
 /* ====================================
 ======= FIM CARROSSEL =================
 ======================================*/
 
+/* ======================================================================
+   RITUAL / MODALIDADES — CSS FINAL ESTÁVEL
+   - texto não vaza
+   - sem hover no mobile
+   - sombra suave
+   - container não estoura
+====================================================================== */
+
 /* ================================
-   CONTAINER CENTRAL (Tempo de Sessão)
+   CARD CENTRAL (Tempo de Sessão)
 ================================ */
 .ritual-center-card {
-  background: linear-gradient(180deg, #ffffff 0%, #fafafa 100%);
-  border-radius: 30px;
-  padding: 40px 28px;
-  border: 1px solid rgba(0, 0, 0, 0.08);
-  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.08);
+  background: #ffffff;
+  border-radius: 28px;
+  padding: 36px 28px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.06);
+  max-width: 100%;
+  overflow: hidden; /* 🔒 impede vazamento */
   position: relative;
   z-index: 2;
 }
 
 /* ================================
-   CARDS LATERAIS (Modalidades)
+   ACCORDION — BASE LIMPA
+================================ */
+.myaccordion,
+.myaccordion .card,
+.myaccordion .card-header {
+  background: #ffffff !important;
+  border: none;
+}
+
+/* Botão do accordion */
+.myaccordion .btn-link {
+  width: 100%;
+  max-width: 100%;
+  padding: 16px 8px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* 🔑 evita empurrar texto */
+
+  font-size: 0.85rem;
+  font-weight: 600;
+  line-height: 1.4;
+
+  letter-spacing: 0.06em; /* reduzido */
+  text-transform: uppercase;
+
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: break-word;
+
+  color: #222 !important;
+  text-decoration: none !important;
+  background: transparent !important;
+  border-bottom: 1px solid #eeeeee;
+}
+
+/* Ícone do accordion (+ / -) */
+.myaccordion .btn-link i,
+.myaccordion .btn-link span {
+  flex-shrink: 0;
+  margin-left: 10px;
+}
+
+/* Corpo */
+.myaccordion .card-body {
+  padding: 14px 6px 22px;
+  background: #ffffff;
+}
+
+/* ================================
+   LISTA INTERNA
+================================ */
+.ritual-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ritual-list li {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+
+  font-size: 0.9rem;
+  line-height: 1.6;
+
+  white-space: normal;
+  word-break: break-word;
+}
+
+.ritual-time {
+  font-weight: 600;
+  white-space: nowrap;
+  color: #111;
+}
+
+/* ================================
+   CARDS LATERAIS
 ================================ */
 .treatment-card {
   background: #ffffff;
-  margin-bottom: 25px;
-  padding: 32px 22px;
+  padding: 30px 22px;
   border-radius: 20px;
   text-align: center;
-  border: 1px solid rgba(0, 0, 0, 0.08);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
-  position: relative;
-  transition: transform 0.35s ease, box-shadow 0.35s ease;
+
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.treatment-card::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: 20px;
-  box-shadow: 0 0 0 1px rgba(0,0,0,0.03);
-  pointer-events: none;
-}
-
-/* Hover premium suave */
-.treatment-card:hover {
-  background: #ffffff;
-  transform: translateY(-6px);
-  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.12);
+/* Hover só no desktop */
+@media (min-width: 992px) {
+  .treatment-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08);
+  }
 }
 
 /* ================================
@@ -13401,21 +13465,20 @@ p {
 .treatment-card .icon span,
 .ritual-header i,
 .ritual-header span[class^="flaticon-"] {
-  font-size: 44px;
+  font-size: 42px;
   color: #333 !important;
-  margin-bottom: 16px;
+  margin-bottom: 14px;
   display: block;
-  filter: drop-shadow(0 4px 6px rgba(0,0,0,0.08));
 }
 
 /* ================================
-   TEXTOS DOS CARDS
+   TEXTOS
 ================================ */
 .treatment-card h3 {
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   font-weight: 600;
-  margin-bottom: 12px;
   line-height: 1.35;
+  margin-bottom: 10px;
   color: #111;
 }
 
@@ -13426,142 +13489,46 @@ p {
 }
 
 /* ================================
-   ACCORDION PREMIUM (Limpo e Legível)
-================================ */
-.myaccordion .card-header {
-  background: #f9f9f9;
-  padding: 0;
-  border: none;
-}
-
-.myaccordion .card {
-  background: #f9f9f9;
-  border: none;
-}
-
-.myaccordion .card-body {
-  padding: 16px 14px 28px;
-  background: #ffffff;
-}
-
-/* Botão / título */
-.myaccordion .btn-link {
-  width: 100%;
-  padding: 18px 6px;
-  font-size: 0.85rem;
-  font-weight: 600;
-  line-height: 1.4;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  text-align: left;
-  color: #222 !important;
-  text-decoration: none !important;
-  border-bottom: 1px solid #eeeeee;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: transparent !important;
-  transition: color 0.25s ease, border-color 0.25s ease;
-}
-
-/* Hover / ativo */
-.myaccordion .btn-link:hover,
-.myaccordion .btn-link:focus,
-.myaccordion .btn-link[aria-expanded="true"] {
-  color: #666 !important;
-  border-bottom-color: #dddddd;
-  outline: none;
-  box-shadow: none;
-}
-
-/* ================================
-   LISTA DE TEMPO / VALORES
-================================ */
-.ritual-time {
-  color: #111 !important;
-  font-weight: 600;
-  white-space: nowrap;
-}
-
-/* ================================
-   MOBILE AJUSTES FINOS
+   MOBILE — AJUSTES FINAIS
 ================================ */
 @media (max-width: 768px) {
-  .treatment-card {
+  .ritual-center-card {
     padding: 28px 20px;
   }
 
-  .treatment-card h3 {
-    font-size: 1rem;
+  .myaccordion .btn-link {
+    font-size: 0.82rem;
+    letter-spacing: 0.04em;
   }
 
-  .treatment-card p {
-    font-size: 0.88rem;
-  }
-
-  .ritual-center-card {
-    padding: 32px 22px;
+  .treatment-card {
+    padding: 26px 20px;
   }
 }
 
-@media (max-width: 768px) {
-  .ritual-center-card {
-    padding: 28px 20px;   /* menos padding lateral */
-  }
+/* =========================================================
+   FIX DEFINITIVO — TEXTO SAINDO DO BLOCO (BOOTSTRAP)
+========================================================= */
+
+/* Neutraliza flex do Bootstrap dentro do accordion */
+.ritual-center-card .card,
+.ritual-center-card .card-body {
+  display: block !important;
+  flex: none !important;
+  max-width: 100%;
+  overflow: hidden;
 }
 
-.ritual-list {
-  padding-left: 0;
-  margin: 0;
-  list-style: none;
+/* Padding controlado (não estoura lateral) */
+.ritual-center-card .card-body {
+  padding: 12px 8px 20px !important;
 }
 
-.ritual-list li {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 12px;
-
-  font-size: 0.9rem;
-  line-height: 1.6;
-  padding: 10px 0;
-
-  white-space: normal;        /* 🔴 ESSENCIAL */
-  word-break: break-word;     /* 🔴 ESSENCIAL */
-}
-
-
-/* =====================================
-   REMOVE AMARELO DO ACCORDION (FINAL)
-===================================== */
-
-/* Header e botão em TODOS os estados */
-.myaccordion .card-header,
-.myaccordion .card,
-.myaccordion .btn-link,
-.myaccordion .btn-link.collapsed,
-.myaccordion .btn-link:not(.collapsed),
-.myaccordion .btn-link:hover,
-.myaccordion .btn-link:focus,
-.myaccordion .btn-link:active {
-  background-color: #f9f9f9 !important;
-}
-
-/* Remove pseudo-elementos que trazem fundo */
-.myaccordion .btn-link::before,
-.myaccordion .btn-link::after {
-  background: none !important;
-}
-
-/* Remove highlight do Bootstrap */
-.myaccordion .btn-link:focus-visible {
-  outline: none;
-  box-shadow: none;
-}
-
-/* Corpo interno */
-.myaccordion .card-body {
-  background-color: #ffffff !important;
+/* Garante que nada ultrapasse */
+.ritual-center-card *,
+.ritual-center-card *::before,
+.ritual-center-card *::after {
+  box-sizing: border-box;
 }
 
 /* =====================================
@@ -13617,4 +13584,205 @@ p {
 .ftco-gallery .gallery {
   background-size: cover;
   background-position: center;
+}
+
+/* Padroniza título "Muito além do exercício físico"
+   para ficar igual ao "Informações Premium Pilates" */
+.heading-section h2 {
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: #111111;
+    margin-bottom: 24px;
+}
+
+/* --- CONTAINER DO CARROSSEL --- */
+#ultra-services-section .srv-slider-container {
+    width: 100% !important;
+    padding: 40px 10px !important;
+    overflow: hidden !important;
+    position: relative !important;
+}
+
+/* --- O CARD PREMIUM (Branco com Sombra Forte) --- */
+#ultra-services-section .srv-premium-card {
+    background: #ffffff !important;
+    border-radius: 25px !important;
+    padding: 45px 25px !important;
+    text-align: center !important;
+    border: 1px solid #eeeeee !important;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.12) !important;
+    height: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    margin-bottom: 20px !important;
+}
+
+/* --- BOX DO ÍCONE (Prateado Interno) --- */
+#ultra-services-section .srv-icon-box {
+    width: 85px !important;
+    height: 85px !important;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff) !important;
+    border: 2px solid #d1d1d1 !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-bottom: 25px !important;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.06) !important;
+}
+
+#ultra-services-section .srv-icon-box span {
+    font-size: 38px !important;
+    color: #111111 !important;
+}
+
+/* --- TEXTOS --- */
+#ultra-services-section .srv-card-body h3 {
+    font-size: 1.1rem !important;
+    font-weight: 800 !important;
+    color: #000000 !important;
+    text-transform: uppercase !important;
+    margin-bottom: 15px !important;
+}
+
+#ultra-services-section .srv-card-body p {
+    font-size: 0.9rem !important;
+    color: #444444 !important;
+    line-height: 1.6 !important;
+}
+
+/* --- MOBILE & CARROSSEL --- */
+@media (max-width: 991.98px) {
+    #ultra-services-section .srv-slider-container {
+        overflow-x: auto !important;
+        scroll-snap-type: x mandatory !important;
+        -webkit-overflow-scrolling: touch !important;
+        padding-bottom: 50px !important;
+    }
+    #ultra-services-section .srv-carousel-row {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        margin: 0 !important;
+    }
+    #ultra-services-section .srv-card-item {
+        flex: 0 0 85% !important;
+        max-width: 85% !important;
+        scroll-snap-align: center !important;
+        padding: 0 15px !important;
+    }
+    /* Estático no Mobile */
+    #ultra-services-section .srv-premium-card { transform: none !important; }
+}
+
+/* --- HOVER DESKTOP (AJUSTADO PARA NÃO TREMER) --- */
+@media (min-width: 992px) {
+    #ultra-services-section .srv-premium-card:hover {
+        /* Remova ou comente a linha abaixo para parar de subir */
+        /* transform: translateY(-10px) !important; */
+        
+        /* Mantemos apenas uma leve mudança de cor ou sombra estática */
+        box-shadow: 0 15px 45px rgba(0, 0, 0, 0.15) !important;
+        border-color: #d1d1d1 !important;
+        background: #ffffff !important;
+    }
+}
+
+/* --- CONTAINER TOTAL (SEM BORDAS LATERAIS) --- */
+#ultra-services-section .container-fluid {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+}
+
+/* --- AJUSTE DA LINHA (ROW) --- */
+#ultra-services-section .srv-carousel-row {
+    display: flex !important;
+    flex-wrap: nowrap !important; /* Mantém os cards em linha para o carrossel */
+    margin: 0 !important;
+    padding: 20px 0 !important;
+}
+
+/* --- FORMATO DOS CARDS NO DESKTOP --- */
+@media (min-width: 992px) {
+    #ultra-services-section .srv-card-item {
+        /* Define que 4 cards apareçam na tela (100 / 4 = 25%) */
+        flex: 0 0 25% !important; 
+        max-width: 25% !important;
+        padding: 0 15px !important;
+    }
+    
+    /* Garante que o container não esconda os cards no PC */
+    #ultra-services-section .srv-slider-container {
+        overflow: visible !important; 
+    }
+}
+
+/* --- FORMATO DOS CARDS NO MOBILE --- */
+@media (max-width: 991.98px) {
+    #ultra-services-section .srv-slider-container {
+        overflow-x: auto !important;
+        scroll-snap-type: x mandatory !important;
+        padding: 20px 0 50px 0 !important;
+    }
+
+    #ultra-services-section .srv-card-item {
+        flex: 0 0 85% !important;
+        max-width: 85% !important;
+        scroll-snap-align: center !important;
+        padding: 0 10px !important;
+    }
+}
+
+/* --- RESET DE HOVER (ESTÁTICO PARA NÃO TREMER) --- */
+#ultra-services-section .srv-premium-card:hover {
+    transform: none !important;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.12) !important;
+    border-color: #d1d1d1 !important;
+}
+
+/* =========================================
+   FIX DEFINITIVO — TÍTULO DEPOIMENTOS
+========================================= */
+
+.testimony-section .heading-section h2 {
+    margin-top: 20px!important;
+}
+
+/* =========================================
+   HERO – AJUSTE DE BOTÕES NO MOBILE
+   ========================================= */
+@media (max-width: 767.98px) {
+
+  /* Esconde o botão principal no mobile */
+  .hero-pilates .btn-primary {
+    display: none !important;
+  }
+
+  /* Ajusta o botão "Conhecer as Unidades" */
+  .hero-pilates .btn-outline-primary {
+    width: auto !important;
+    padding: 10px 16px !important;
+    font-size: 12px !important;
+    letter-spacing: 1px !important;
+    margin: 12px auto 0 !important;
+    display: inline-block !important;
+  }
+
+  /* Centraliza corretamente */
+  .hero-pilates .row.justify-content-center {
+    flex-direction: column;
+  }
+}
+
+.ion-ios-checkmark-circle,
+.ion-ios-checkmark-circle::before {
+  color: #64478B !important;
+}
+
+@media (max-width: 991.98px) {
+  .hero-wrap .slider-text {
+    margin-top: -60px !important;
+  }
 }

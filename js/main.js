@@ -263,52 +263,36 @@
 	$('.appointment_time').timepicker();
 
 
-/* ==========================================================================
-   CARROSSEL AUTOMÁTICO - VERSÃO FORÇADA
-   ========================================================================== */
-const startUltraAutoplay = () => {
-    const slider = document.querySelector('.srv-slider-container');
-    
-    if (!slider) return;
+document.addEventListener('DOMContentLoaded', function() {
+    const track = document.querySelector('#ultra-services-section .srv-slider-container');
+    if (!track) return;
 
-    // Função de rolagem
-    const moveNext = () => {
-        // Se estiver no Desktop (largura > 991), não faz nada
-        if (window.innerWidth > 991) return;
+    let isPaused = false;
+    const intervalTime = 3000; // 3 segundos
 
-        const firstCard = slider.querySelector('.srv-card-item');
-        if(!firstCard) return;
+    const stepScroll = () => {
+        if (isPaused || window.innerWidth > 991) return;
 
-        const cardWidth = firstCard.offsetWidth;
-        const totalWidth = slider.scrollWidth;
-        const currentPos = slider.scrollLeft;
-        const containerWidth = slider.offsetWidth;
+        const card = track.querySelector('.srv-card-item');
+        const cardWidth = card.offsetWidth;
+        const currentScroll = track.scrollLeft;
+        const maxScroll = track.scrollWidth - track.offsetWidth;
 
-        // Se estiver no final (ou muito perto dele), volta pro início
-        if (currentPos + containerWidth >= totalWidth - 10) {
-            slider.scrollTo({ left: 0, behavior: 'smooth' });
+        if (currentScroll >= maxScroll - 10) {
+            track.scrollTo({ left: 0, behavior: 'smooth' });
         } else {
-            // Soma a largura do card + o gap (espaço entre eles)
-            slider.scrollTo({ left: currentPos + cardWidth, behavior: 'smooth' });
+            track.scrollTo({ left: currentScroll + cardWidth, behavior: 'smooth' });
         }
     };
 
-    // Executa a cada 3 segundos
-    let autoPlayInterval = setInterval(moveNext, 3000);
+    let slideTimer = setInterval(stepScroll, intervalTime);
 
-    // Pausa se o usuário tocar na tela para ler
-    slider.addEventListener('touchstart', () => clearInterval(autoPlayInterval));
-    slider.addEventListener('touchend', () => {
-        autoPlayInterval = setInterval(moveNext, 3000);
+    // Pausa ao tocar
+    track.addEventListener('touchstart', () => { isPaused = true; });
+    track.addEventListener('touchend', () => {
+        setTimeout(() => { isPaused = false; }, 2000);
     });
-};
+});
 
-// Garante que o script rode mesmo que o HTML demore um pouco
-if (document.readyState === 'complete') {
-    startUltraAutoplay();
-} else {
-    window.addEventListener('load', startUltraAutoplay);
-}
-	
 })(jQuery);
 
