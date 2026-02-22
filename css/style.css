@@ -11899,7 +11899,7 @@ textarea.form-control {
 
 .heading-section {
   z-index: 0;
-  padding-top: 60px;
+  padding-top: 10px;
 }
 
 .heading-section .subheading {
@@ -12909,7 +12909,7 @@ textarea.form-control {
 
   .ftco-intro {   
     min-height: 420px; /* banner de verdade no mobile */
-    padding: 40px 20px;
+    padding: 10px 0 !important;
   }
 
   .ftco-intro h2 {
@@ -12942,7 +12942,7 @@ textarea.form-control {
   align-items: center;
 
   /* ISSO É O QUE FALTAVA 👇 */
-  padding: 40px 0 !important;
+  padding: 10px 0 !important;
 }
 
 
@@ -13848,6 +13848,20 @@ textarea.form-control {
   .premium-carousel .owl-item {
     width: 90vw !important;
   }
+}
+
+/* MOBILE – remove folga lateral global */
+@media (max-width: 768px) {
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+}
+
+/* Descer o bloco de texto */
+#ultra-services-section .row.justify-content-center {
+  margin-top: 60px;
+  margin-bottom: 20px !important;
 }
 
 
