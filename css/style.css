@@ -13413,29 +13413,45 @@ textarea.form-control {
 /* ================================
    LISTA INTERNA
 ================================ */
-.ritual-list {
+.ritual-list {  
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
+  max-width: 260px;
+  margin-left: 110px !important;
+  margin-right: auto !important;
 }
+
 
 .ritual-list li {
-  width: 100%;
-  display: flex;
+ display: flex;
   justify-content: space-between;
-  gap: 12px;
-
-  font-size: 0.9rem;
-  line-height: 1.6;
-
-  white-space: normal;
-  word-break: break-word;
+  align-items: center;
 }
+
 
 .ritual-time {
   font-weight: 600;
   white-space: nowrap;
   color: #111;
+}
+
+@media (max-width: 768px) {
+  .ritual-list {  
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 260px;
+  margin-left: 6px !important;
+  margin-right: auto !important;
+}
+
+
+.ritual-list li {
+ display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 }
 
 /* ================================
@@ -13826,7 +13842,8 @@ textarea.form-control {
   margin-right: auto !important;
 }
 
-/* REMOVE DESLOCAMENTO HORIZONTAL DA COLUNA */
-.ritual-center-card {
-  transform: translateX(-8px);
+
+/* Centraliza a coluna do card */
+.ftco-section.ritual-section .row.align-items-center {
+  justify-content: center !important;
 }
