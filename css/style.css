@@ -13834,32 +13834,20 @@ textarea.form-control {
   justify-content: center !important;
 }
 
-/* MOBILE – cards realmente mais largos */
 @media (max-width: 768px) {
-  .premium-card {
-    flex: 0 0 94%;
-    max-width: 94%;
-  }
-
-  .premium-section .container {
+  .premium-info .container {
+    max-width: 100%;
     padding-left: 0;
     padding-right: 0;
   }
 }
 
-/* MOBILE – cards edge-to-edge */
 @media (max-width: 768px) {
-  .premium-card {
-    width: 100vw;
-    max-width: 100vw;
-    margin-left: calc(50% - 50vw);
-    margin-right: calc(50% - 50vw);
+  .premium-carousel .item,
+  .premium-carousel .slick-slide,
+  .premium-carousel .owl-item {
+    width: 90vw !important;
   }
 }
 
-@media (max-width: 768px) {
-  .premium-card-inner {
-    padding: 30px 28px !important; /* mais corpo */
-  }
-}
 
