@@ -13354,7 +13354,7 @@ textarea.form-control {
   border: 1px solid rgba(0, 0, 0, 0.06);
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.06);
   max-width: 100%;
-  overflow: hidden; /* 🔒 impede vazamento */
+  overflow: visible; /* 🔒 impede vazamento */
   position: relative;
   z-index: 2;
 }
@@ -13603,6 +13603,7 @@ textarea.form-control {
     padding: 40px 10px !important;
     overflow: hidden !important;
     position: relative !important;
+    scrollbar-width: none; /* Firefox */
 }
 
 /* --- O CARD PREMIUM (Branco com Sombra Forte) --- */
@@ -13612,7 +13613,7 @@ textarea.form-control {
     padding: 45px 25px !important;
     text-align: center !important;
     border: 1px solid #eeeeee !important;
-    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.12) !important;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.07) !important;
     height: 100% !important;
     display: flex !important;
     flex-direction: column !important;
@@ -13716,7 +13717,7 @@ textarea.form-control {
     
     /* Garante que o container não esconda os cards no PC */
     #ultra-services-section .srv-slider-container {
-        overflow: visible !important; 
+        overflow-x: hidden !important; 
     }
 }
 
@@ -13741,6 +13742,10 @@ textarea.form-control {
     transform: none !important;
     box-shadow: 0 15px 45px rgba(0, 0, 0, 0.12) !important;
     border-color: #d1d1d1 !important;
+}
+
+#ultra-services-section .srv-slider-container::-webkit-scrollbar {
+  display: none;
 }
 
 /* =========================================
@@ -13786,4 +13791,18 @@ textarea.form-control {
   .hero-wrap .slider-text {
     margin-top: -60px !important;
   }
+}
+
+/* PERMITE SCROLL VERTICAL NO DEPOIMENTO */
+.owl-carousel {
+  touch-action: pan-y !important;
+}
+
+.testimony-wrap {
+  overflow-y: auto;
+  max-height: 100%;
+}
+
+.ritual-section {
+  margin-top: -60px;
 }
