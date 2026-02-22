@@ -13870,4 +13870,11 @@ textarea.form-control {
   margin-top: 60px;
 }
 
+body {
+  background-color: #ffffff;
+}
+
+.bg-light {
+  background-color: #ffffff;
+}
 
