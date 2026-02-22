@@ -12811,36 +12811,21 @@ textarea.form-control {
   overflow: hidden;
 }
 
-/* mobile */
+/* MOBILE – HERO PILATES */
 @media (max-width: 768px) {
   .hero-pilates {
-    min-height: 420px;
-    padding-top: 110px;
-    padding-bottom: 60px;
-  }
-}
-
-@media (max-width: 768px) {
-  .hero-pilates {
-    min-height: 340px;
-    padding-top: 90px; /* abaixo do menu */
+    min-height: 340px !important;
+    padding-top: 90px;   /* abaixo do menu */
     padding-bottom: 40px;
   }
 }
+
 
 @media (max-width: 768px) {
   .hero-bg-img {
     object-position: center top;
   }
 }
-
-@media (max-width: 768px) {
-  /* ALTURA DO HERO */
-  .hero-pilates {
-    min-height: 320px;
-    padding-top: 90px;
-    padding-bottom: 40px;
-  }
 
   /* TÍTULO */
   .hero-pilates h1 {
@@ -12869,7 +12854,7 @@ textarea.form-control {
   .hero-pilates .icon span {
     font-size: 28px;
   }
-}
+
 
 @media (max-width: 768px) {
 
