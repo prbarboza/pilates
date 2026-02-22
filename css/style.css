@@ -13803,25 +13803,8 @@ textarea.form-control {
   max-height: 100%;
 }
 
-.ritual-section {
-  margin-top: -60px;
+/* FIX DEFINITIVO – accordion cortando conteúdo */
+.ftco-section.ritual-section .row.align-items-center {
+  align-items: stretch !important;
 }
 
-.ritual-center-card {
-  overflow: visible !important;
-  height: auto !important;
-}
-
-#accordion,
-#accordion .collapse,
-#accordion .card {
-  height: auto !important;
-  overflow: visible !important;
-}
-
-#accordion,
-#accordion .collapse,
-#accordion .card {
-  height: auto !important;
-  overflow: visible !important;
-}
