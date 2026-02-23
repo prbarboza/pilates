@@ -14264,4 +14264,58 @@ section.bg-white .col-md-7 p {
     }
 }
 
+/* ===== HERO ESSÊNCIA – CONTROLE EXCLUSIVO ===== */
+.hero-essencia .slider-text {
+  align-items: flex-start !important;   /* sobe verticalmente */
+  padding-top: 120px;                   /* altura do topo */
+  padding-bottom: 60px;
+}
 
+/* Alinhamento texto */
+.hero-essencia .slider-text .col-md-9 {
+  text-align: center;
+  margin-top: -40px; /* sobe fino */
+}
+
+/* Logo */
+.hero-essencia .icon img {
+  max-width: 110px;
+  margin-bottom: 10px;
+}
+
+/* Título */
+.hero-essencia .bread {
+  font-size: 38px;
+  letter-spacing: 3px;
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 991.98px) {
+
+  .hero-essencia .slider-text {
+    padding-top: 8px;
+    padding-bottom: 100px;
+    align-items: flex-end;   /* desce */
+  }
+
+  .hero-essencia .slider-text .col-md-9 {
+    margin-top: 10px;
+  }
+
+  .hero-essencia .icon img {
+    max-width: 90px;
+  }
+
+  .hero-essencia .bread {
+    font-size: 28px;
+  }
+
+}
+
+@media (max-width: 991px) {
+
+  .hero-essencia .slider-text .icon:after {
+    max-width: 70%;
+  }
+
+}
