@@ -3,7 +3,7 @@
 Projetos e soluções digitais desenvolvidos pela Ecom Inteligente.
 
 Este repositório contém templates e implementações personalizadas
-para negócios locais, estúdios, clínicas e e-commerces, com foco em
+para negócios locais, Studios, clínicas e e-commerces, com foco em
 performance, conversão e experiência do usuário.
 
 ## Tecnologias
