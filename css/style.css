@@ -14247,3 +14247,21 @@ section.bg-white .col-md-7 p {
         width: 100%; /* Faz o link ocupar toda a largura da tela no mobile */
     }
 }
+
+/* Ajuste de altura do banner para Mobile */
+@media (max-width: 767.98px) {
+    .hero-wrap.hero-wrap-2 {
+        height: 350px !important; /* Define uma altura estreita fixa */
+    }
+    
+    .hero-wrap.hero-wrap-2 .slider-text {
+        height: 350px !important; /* Alinha a altura do texto com o container */
+        padding-top: 50px; /* Garante que o conteúdo não cole no menu */
+    }
+
+    .hero-wrap.hero-wrap-2 h1.bread {
+        font-size: 26px !important; /* Diminui um pouco o título no mobile */
+    }
+}
+
+
